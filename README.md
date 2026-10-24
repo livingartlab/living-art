@@ -18,5 +18,5 @@ Abra http://localhost:5173.
 - Prazos de próteses sobre implante e protocolos.
 - Oferta de entrada (hoje: "condição especial de entrada no primeiro caso"; opções do copy: condição especial, coroa de teste ou frete grátis).
 - FAQ: scanners e formatos aceitos, moldagem convencional, logística para outras cidades, política de refação/garantia.
-- Logo em alta resolução (o atual veio do perfil do Instagram, 150 px).
+- Logo oficial em vetor (SVG/PNG grande): o do site é uma redesenhada fiel ao original (símbolo `#logo` no `index.html`), porque o Instagram só entrega 150 px. Trocar pelo arquivo original quando houver.
 - Número de WhatsApp: `5589994472889` (em `script.js` e `index.html`).

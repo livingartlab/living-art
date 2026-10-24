@@ -10,7 +10,7 @@
 <meta property="og:title" content="Living Art | Laboratório Odontológico Digital">
 <meta property="og:description" content="Coroas a partir de 72 horas, próteses sobre implante e protocolos com fluxo 100% digital, na sua região.">
 <meta property="og:image" content="assets/logo.jpg">
-<link rel="icon" href="assets/logo.jpg">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -18,12 +18,25 @@
 </head>
 <body>
 
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="tooth" viewBox="0 0 100 100">
+      <path d="M50 14C38 5 14 9 14 33c0 15 10 21 12 37 2 15 6 24 12 24 6 0 6-18 12-18s6 18 12 18c6 0 10-9 12-24 2-16 12-22 12-37C86 9 62 5 50 14Z" fill="none" stroke="#44b3bf" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M64 22c9 2 13 9 12 17" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="logo" viewBox="0 0 336 112">
+      <text x="0" y="78" font-family="Manrope,sans-serif" font-weight="800" font-size="68" fill="#fff" textLength="214" lengthAdjust="spacingAndGlyphs">Living</text>
+      <text x="226" y="78" font-family="Manrope,sans-serif" font-weight="800" font-size="68" fill="#44b3bf" textLength="106" lengthAdjust="spacingAndGlyphs">Art</text>
+      <path d="M232 28C226 6 246 0 258 8c10-8 28-2 24 20" fill="none" stroke="#44b3bf" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M272 6c10 2 15 10 12 20" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+      <text x="0" y="104" font-family="Manrope,sans-serif" font-weight="700" font-size="10.5" fill="#fff" fill-opacity=".88" textLength="332" lengthAdjust="spacing">LABORATÓRIO ODONTOLÓGICO DIGITAL</text>
+    </symbol>
+  </defs>
+</svg>
+
 <header class="nav" id="top">
   <div class="wrap nav__in">
-    <a href="#top" class="brand" aria-label="Living Art, início">
-      <img src="assets/logo.jpg" alt="Living Art Laboratório Odontológico Digital" width="44" height="44">
-      <span>Living Art<small>Laboratório Odontológico Digital</small></span>
-    </a>
+    <a href="#top" class="brand" aria-label="Living Art Laboratório Odontológico Digital, início"><svg class="logo" viewBox="0 0 336 112" role="img" aria-hidden="true"><use href="#logo"/></svg></a>
     <nav class="nav__links" aria-label="Principal">
       <a href="#diferenciais">Diferenciais</a>
       <a href="#servicos">Serviços</a>
@@ -48,9 +61,7 @@
       <p class="micro">15 minutos com nossa equipe técnica. Sem compromisso.</p>
     </div>
     <div class="hero__vis reveal" aria-hidden="true">
-      <div class="orb">
-        <img src="assets/logo.jpg" alt="" width="260" height="260">
-      </div>
+      <div class="orb"><svg viewBox="0 0 336 112"><use href="#logo"/></svg></div>
       <ul class="chips">
         <li><b>72h</b> coroas a partir de</li>
         <li><b>100%</b> fluxo digital</li>
@@ -232,7 +243,7 @@
 <section class="sec" id="sobre">
   <div class="wrap about">
     <div class="about__badge reveal" aria-hidden="true">
-      <img src="assets/logo.jpg" alt="" width="200" height="200">
+      <div class="about__circle"><svg viewBox="0 0 100 100"><use href="#tooth"/></svg></div>
       <span>Desde 2018</span>
     </div>
     <div class="reveal">
@@ -272,7 +283,7 @@
 
 <footer class="foot">
   <div class="wrap foot__in">
-    <img src="assets/logo.jpg" alt="Living Art" width="48" height="48">
+    <svg class="logo logo--foot" viewBox="0 0 336 112" role="img" aria-label="Living Art Laboratório Odontológico Digital"><use href="#logo"/></svg>
     <p>Living Art · Laboratório Odontológico Digital · Paulistana-PI</p>
     <p><a href="https://www.instagram.com/livingartlab/" target="_blank" rel="noopener">@livingartlab</a> · <a href="https://wa.me/5589994472889" target="_blank" rel="noopener">WhatsApp (89) 99447-2889</a></p>
   </div>
